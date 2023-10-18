@@ -66,14 +66,14 @@ header {
 }
 
 .tech {
-      max-width: 240px;
-      max-height: auto;
+      width: 150px;
+      height: auto;
       margin: 20px 20px;
-      /*background-color: #fff;*/
       padding: 15px;
-      box-shadow: 0 0 10px rgba(240, 139, 134, 0.5);
+      box-shadow: 0 0 20px rgba(240, 139, 134, 0.5);
       text-align: center;
       border-radius: 9%;
+      al
 }
 
 .tech-image {
@@ -89,15 +89,15 @@ header {
 
 .grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for 2 rows */
-      gap: 12px; /* Gap between images */
+      grid-template-columns: repeat(4, 1fr); /* 2 columns for 2 rows */
+      gap: 20px; /* Gap between images */
       max-width: 460px; /* Adjust the maximum width as needed */
-      margin: 0 auto; /* Center the grid horizontally */
-      padding: 12px; /* Add padding for spacing */
+      margin: auto auto; /* Center the grid horizontally */
+      /*padding: 12px; /* Add padding for spacing */
 }
 
 .tech-head {
-      font-family: 'Tilt Neon', cursive;;
+      font-family: 'Tilt Neon', cursive;
       font-size: large;
       /*color: black;*/
 }
