@@ -92,7 +92,7 @@ header {
       grid-template-columns: repeat(4, 1fr); /* 2 columns for 2 rows */
       gap: 20px; /* Gap between images */
       max-width: 460px; /* Adjust the maximum width as needed */
-      margin: auto auto; /* Center the grid horizontally */
+      margin: auto 300px; /* Center the grid horizontally */
       /*padding: 12px; /* Add padding for spacing */
 }
 
