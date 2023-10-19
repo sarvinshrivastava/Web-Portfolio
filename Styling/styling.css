@@ -48,8 +48,9 @@ header {
 }
 
 .myphoto{
+      display: flex;
       max-width: 250px; 
-      align: right;
+      align-items: right;
 }
 
 .intro {
