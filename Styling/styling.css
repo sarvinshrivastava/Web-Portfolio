@@ -47,11 +47,13 @@ header {
       text-align: center;
 }
 
-.myphoto{
+.myphoto, .myphoto2{
       display: flex;
-      max-width: 250px; 
+      /*max-width: 250px; */
       align-items: right;
+      justify-items: right;
 }
+
 
 .intro {
       color: #F9EAE1;
