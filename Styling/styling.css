@@ -47,12 +47,24 @@ header {
       text-align: center;
 }
 
+.myphoto{
+      max-width: 250px; 
+      align: right;
+}
+
+.intro {
+      color: #F9EAE1;
+      background-color: #7D4F50;
+}
+
 .intro-heading {
       padding-top: 10px;
       text-align: center;
       font-family: 'Shantell Sans', cursive;
       font-family: 'Tsukimi Rounded', sans-serif;
       font-size: x-large;
+      color: #F9EAE1;
+      background-color: #7D4F50;
 }
 
 .intro-content {
@@ -63,6 +75,8 @@ header {
       font-weight: 0;
       text-align: center;
       padding-bottom: 65px;
+      color: #F9EAE1;
+      background-color: #7D4F50;
 }
 
 .tech {
