@@ -9,11 +9,17 @@ header {
       align-items: center;
       /*margin: 5px;*/
 }
-/*
+
 .header-align-cont {
-      margin: 5px;
+      margin-left: 28rem;
 }
-*/
+
+.nav {
+      font-size: 1.12rem;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-image {
       width: 40px;
       height: auto;
@@ -33,9 +39,11 @@ header {
       font-size: x-large;
       font-weight: regular;
       text-align: center;
+      
       padding-top: 50px;
-      padding-left: 50px;
+      /*padding-left: 50px;*/
       padding-right: 50px;
+      
       padding-bottom: 0px;
 }
 
@@ -46,12 +54,13 @@ header {
 }
 
 .myphoto{
-      display: flex;
+      display: inline-flex;
       margin: 0 620px;  
 }
 
 .self {
-      display: overflow;
+      float: right;
+      size: 1.8rem;
 }
 
 
