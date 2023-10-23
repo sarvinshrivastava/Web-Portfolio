@@ -1,21 +1,19 @@
 header {
       max-width: 1050px;
       margin: 0 auto;
-      /*background-color: #fff;*/
       padding: 10px;
-      /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
 }
 
 .header-align-img {
       display: flex;
       align-items: center;
-      margin: 5px;
+      /*margin: 5px;*/
 }
-
+/*
 .header-align-cont {
       margin: 5px;
 }
-
+*/
 .header-image {
       width: 40px;
       height: auto;
@@ -49,7 +47,11 @@ header {
 
 .myphoto{
       display: flex;
-      align-content: end;      
+      margin: 0 620px;  
+}
+
+.self {
+      display: overflow;
 }
 
 
